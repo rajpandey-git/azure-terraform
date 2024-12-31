@@ -20,7 +20,7 @@ stages:
     jobs:
       - job: TerraformInit
         steps:
-          - task: TerraformInstaller@0  # Install Terraform
+          # - task: TerraformInstaller@0  # Install Terraform
             inputs:
               terraformVersion: $(terraformVersion)
 
